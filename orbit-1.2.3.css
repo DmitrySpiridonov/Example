@@ -1,0 +1,72 @@
+/* CONTAINER
+   ================================================== */
+
+div.orbit-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit>a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0; 
+    display: none; }
+
+.orbit>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+
+/* DIRECTIONAL NAV
+   ================================================== */
+
+div.slider-nav {
+    display: block }
+
+div.slider-nav span {
+    width: 78px;
+    height: 100px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer; }
+
+div.slider-nav span.right {
+    background: url(image/right-arrow.png);
+    right: -260px;
+	top: 230px;
+	}
+
+div.slider-nav span.left {
+    background: url(image/left-arrow.png);
+    left: 260px;
+	top: 230px;
+	}
+	
+
+#featured {
+position: absolute;
+top: 30px;
+left: 260px;
+box-shadow: 0 0 10px;
+}
+
